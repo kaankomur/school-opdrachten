@@ -1,0 +1,31 @@
+h2{
+	color:green;
+}
+table{
+	border-spacing: 5px;
+}
+
+
+table, th, td{
+	border:10px solid black;
+
+}
+th,td{
+	padding: 15px;
+}
+th,td{
+	border-radius: 5px;
+	color: blue;
+}
+
+tr:nth-child(even){
+	background-color:lightgreen;
+}
+tr:nth-child(odd){
+	background-color:lightgreen;
+}
+td:hover, th:hover {
+  background-color: red;
+  cursor: pointer;
+}
+
